@@ -174,9 +174,25 @@ Ultimately, my work is a record of the inner light generated as it passes throug
       ],
     },
     awards: {
-      head: { ko: '주요 수상', en: 'Selected Awards' },
+      head: { ko: '수상', en: 'Awards' },
       items: [
-        { ko: '2023  제42회 대한민국 미술대전 서양화 입선(비구상) 및 우수상(優秀賞·구상) 수상', en: '2023  42nd Grand Art Exhibition of Korea — Selected (Non-figurative) & Excellence Award (Figurative)' },
+        { ko: '2023  제42회 대한민국 미술대전 서양화 입선(비구상) 및 優秀賞(구상) 수상', en: '2023  42nd Grand Art Exhibition of Korea — Selected (Non-figurative) & Excellence Award (Figurative)' },
+        { ko: '2023  제3회 중앙 회화대전 서양화 (입선 수상)', en: '2023  3rd Jungang Painting Exhibition, Western Painting (Selected)' },
+        { ko: '2022  국제진흥원 한국문화예술단체 명인 명장 전 "동양화" (명인증서 수여)', en: '2022  Master Artisan Exhibition "Oriental Painting" — Master Certificate awarded' },
+        { ko: '2020–2022  대한민국전통 미술대전 동양화산수화 (입선 3회)', en: '2020–2022  Korea Traditional Art Exhibition, Oriental Landscape (Selected ×3)' },
+        { ko: '2022. 8. 15  광복절 특별기획전 공모전 우수작가상 수상', en: '2022. 8. 15  Liberation Day Special Exhibition — Excellent Artist Award' },
+        { ko: '2021  평화예술대전 공모전 大賞 수상 "동양화 산수화" (서울시장상)', en: '2021  Peace Art Competition — Grand Prize "Oriental Landscape" (Seoul Mayor\'s Award)' },
+        { ko: '2019  국제종합예술대전 공모전 大賞 수상 "소나무분경" (부산시장상)', en: '2019  International Comprehensive Art Competition — Grand Prize "Pine Bonsai" (Busan Mayor\'s Award)' },
+      ],
+    },
+    career: {
+      head: { ko: '경력 · 현재 근무처', en: 'Career & Current Position' },
+      items: [
+        { ko: '2019–2026  서연 예술원 원장 (창원시 마산 합포구 진북면 추곡1길 327)', en: '2019–2026  Director, Seoyeon Art Institute (Changwon)' },
+        { ko: '2008–2026  옥화정원 수목원 (창원시 마산 합포구 진동면 요장리 107-1 외 9필지, 약 5,300평)', en: '2008–2026  Okhwa Garden Arboretum (Changwon, approx. 5,300 pyeong)' },
+        { ko: '2026 현재  국제종합예술대전 초대 작가 · 한민족 미술회원 정회원 · 국전작가협회 회원 · 한국미협 정회원 · 서울미협 회원 · 마산미협 정회원', en: '2026 Present  Invited Artist, International Comprehensive Art Exhibition; Full member of multiple Korean art associations' },
+        { ko: '2005–2015  ㈜마고 벤처기업 대표이사 · 송원식품 대표 (건강음료: 석류·오미자·감식초) — 발명특허(제18331310호) 획득, 제조·판매유통업', en: '2005–2015  CEO, MAGO Venture Inc. & Songwon Food — health beverages; patent No. 18331310, manufacturing & distribution' },
+        { ko: '2001–2006  ㈜마고 벤처기업 대표이사 — 전자파차단기 개발·제조 및 국내외 수출 판매', en: '2001–2006  CEO, MAGO Venture Inc. — EMF-blocker development, manufacturing & global export' },
       ],
     },
   },
