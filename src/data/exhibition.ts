@@ -151,30 +151,32 @@ Ultimately, my work is a record of the inner light generated as it passes throug
     },
   ],
 
-  // 작가 약력
+  // 작가 약력 (도록 원문 그대로)
   bio: {
     education: {
       head: { ko: '학력', en: 'Education' },
       items: [
-        { ko: '2025  홍익대학교 미술대학원 회화학과 석사 졸업', en: '2025  M.F.A. in Painting, Hongik University' },
-        { ko: '2015  부산대학교 경영대학원 MBA 석사 졸업', en: '2015  MBA, Pusan National University' },
-        { ko: '2011  경남대학교 경영학·사회복지학 학사 졸업', en: '2011  B.A. in Business & Social Welfare, Kyungnam University' },
+        { ko: '2025  홍익대학교 미술대학원 회화학과 석사 졸업', en: '2025  M.F.A. in Painting, Hongik University Graduate School of Fine Arts' },
+        { ko: '2015  부산대학교 경영대학원 MBA 석사 졸업', en: '2015  MBA, Pusan National University Graduate School of Business' },
+        { ko: '2011  경남대학교 경영학, 사회복지학 학사 졸업', en: '2011  B.A. in Business Administration & Social Welfare, Kyungnam University' },
       ],
     },
     exhibitions: {
       head: { ko: '주요 전시', en: 'Selected Exhibitions' },
       items: [
-        { ko: '2026  제6회 개인전 〈위버멘쉬의 여정〉 인사아트센터 경남갤러리', en: '2026  6th Solo Exhibition, Insa Art Center Gyeongnam Gallery' },
-        { ko: '2024  홍익대학교 서울 현대미술관 졸업 청구전', en: '2024  Graduation Exhibition, Hongik Univ. Museum' },
-        { ko: '2023  제5회 개인전 — 용인특례시 문화예술원 대전시실', en: '2023  5th Solo Exhibition, Yongin Culture & Arts Center' },
-        { ko: '2022  제1~4회 개인전 (충주·영동·구미·부산)', en: '2022  1st–4th Solo Exhibitions (Chungju, Yeongdong, Gumi, Busan)' },
-        { ko: '단체전 40여 회 — 한중수교 30주년 미술교류전 외', en: '40+ group exhibitions including Korea-China Art Exchange' },
+        { ko: '2024. 4. 21 – 4. 25  홍익대학교 서울 현대미술관 졸업 청구전', en: '2024. 4. 21 – 4. 25  Graduation Exhibition, Hongik University Museum of Contemporary Art, Seoul' },
+        { ko: '2023. 9. 12 – 9. 17  (제5회) 용인특례시 문화예술원 대전시실 2층 초대부스 개인전', en: '2023. 9. 12 – 9. 17  5th Solo Exhibition (Invited Booth), Yongin Culture & Arts Center' },
+        { ko: '2022. 10. 22 – 10. 31  (제4회) 경북 구미 닥터지바고갤러리 초대 개인전', en: '2022. 10. 22 – 10. 31  4th Solo Exhibition (Invited), Dr. Zhivago Gallery, Gumi' },
+        { ko: '2022. 10. 17 – 21  (제3회) 부산 국제종합예술진흥회 초대 개인전', en: '2022. 10. 17 – 21  3rd Solo Exhibition (Invited), Busan' },
+        { ko: '2022. 10. 3 – 13  (제2회) 영동 황간역 내 황간갤러리 초대 개인전', en: '2022. 10. 3 – 13  2nd Solo Exhibition (Invited), Hwanggan Gallery, Yeongdong' },
+        { ko: '2022. 9. 16 – 22  (제1회) 충북 충주시 성마루미술관 개인전', en: '2022. 9. 16 – 22  1st Solo Exhibition, Seongmaru Art Museum, Chungju' },
+        { ko: '2018 / 2026  한중수교 30주년 기념 미술교류전 (국회의원회관) 외 단체전 40여 회', en: '2018 / 2026  Korea-China Art Exchange (30th Anniversary) & 40+ group exhibitions' },
       ],
     },
     awards: {
       head: { ko: '주요 수상', en: 'Selected Awards' },
       items: [
-        { ko: '2023  제42회 대한민국 미술대전 입선(비구상) · 우수상(구상)', en: '2023  42nd Grand Art Exhibition of Korea — Selected & Excellence Award' },
+        { ko: '2023  제42회 대한민국 미술대전 서양화 입선(비구상) 및 우수상(優秀賞·구상) 수상', en: '2023  42nd Grand Art Exhibition of Korea — Selected (Non-figurative) & Excellence Award (Figurative)' },
       ],
     },
   },
