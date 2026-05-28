@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { GlobalErrorBoundary } from './components/GlobalErrorBoundary';
 import { LangProvider, LangToggle } from './i18n';
 import CoverPage from './components/CoverPage';
+import ForewordPage from './components/ForewordPage';
 import CritiquePage from './components/CritiquePage';
 import ArtistBioPage from './components/ArtistBioPage';
 import ArtistNotePage from './components/ArtistNotePage';
@@ -10,8 +11,8 @@ import ArtworkPage from './components/ArtworkPage';
 import EndingPage from './components/EndingPage';
 import { exhibition } from './data/exhibition';
 
-// cover + critique + bio + note + philosophy + artworks + ending
-const INTRO_PAGES = 5;
+// cover + foreword + critique + bio + note + philosophy + artworks + ending
+const INTRO_PAGES = 6;
 const TOTAL_PAGES = INTRO_PAGES + exhibition.artworks.length + 1;
 
 export default function App() {
@@ -132,10 +133,11 @@ function AppContent() {
         onMouseLeave={handleMouseLeave}
       >
         <Slide>{isVisible(0) && <CoverPage />}</Slide>
-        <Slide>{isVisible(1) && <CritiquePage />}</Slide>
-        <Slide>{isVisible(2) && <ArtistBioPage />}</Slide>
-        <Slide>{isVisible(3) && <ArtistNotePage />}</Slide>
-        <Slide>{isVisible(4) && <PhilosophyPage />}</Slide>
+        <Slide>{isVisible(1) && <ForewordPage />}</Slide>
+        <Slide>{isVisible(2) && <CritiquePage />}</Slide>
+        <Slide>{isVisible(3) && <ArtistBioPage />}</Slide>
+        <Slide>{isVisible(4) && <ArtistNotePage />}</Slide>
+        <Slide>{isVisible(5) && <PhilosophyPage />}</Slide>
 
         {exhibition.artworks.map((artwork, index) => (
           <Slide key={artwork.id}>

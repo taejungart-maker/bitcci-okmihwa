@@ -36,21 +36,75 @@ export const exhibition = {
     en: 'Written by Hwang Eui-pil (Hongik University, Art Critic)',
   },
   critique: {
-    ko: `인간의 삶이 지향하는 희구는 대체로 자아 상실마저 재창조하려는 의지를 담아낸다. 현대 사회에서 일어나는 자아 상실은 자신의 반성이나 조명으로 말미암아 오히려 변칙으로 재창조된다. 이로써 재창조는 인간 정신이 극복하지 못하는 한계를 이상화된 실현으로 다가선다.
+    ko: `인간의 삶이 지향하는 희구는 대체로 자아 상실마저 재창조하려는 의지를 담아낸다. 이에 따라 현대 사회에서 일어나는 자아 상실은 자신의 반성이나 조명으로 말미암아 오히려 변칙으로 재창조된다. 이로써 재창조는 인간 정신이 극복하지 못하는 한계를 이상화된 실현으로 다가선다.
 
-오늘날 감정의 상흔에서 도피하려는 결의에는 스스로 자아낸 동정심이나 정사(情思)에 사로잡히지 않으려는 데 따른다. 인간이 느끼는 감정은 정신의 한계에 다다를 때 가능하다. 이러한 극복의 일환으로서 위버멘쉬(Übermensch)를 끌어들이기에 충분하다. 옥미화는 이 같은 정신이 낳은 극복의 문제를 창작으로 이해하려 든다.
+오늘날 감정의 상흔에서 도피하려는 결의에는 스스로 자아낸 동정심이나 정사(情思)에 사로잡히지 않으려는데 따른다. 이처럼 인간이 느끼는 감정에는 역시 정신의 한계에 다다를 경우에 가능하다. 이러한 극복의 일환으로서 위버멘쉬(Übermensch)를 끌어들이기에 충분하다. 옥미화는 이 같은 정신이 낳은 극복의 문제를 창작으로 이해하려 든다.
 
-옥미화는 이를 심연의 울림으로 받아들인다. 표현 방식에서도 거친 마티에르(matière)로 인간 본연의 심상 작용을 대변하며, 강렬한 원색은 생명에 에너지를 펼치려는 심사이기도 하다.
+무릇 인간 정신의 극복에는 감각 여건(status of sensa)의 위치를 적극 내세우기 마련이다. 곧 알프레드 노스 화이트헤드(Alfred North Whitehead, 1861~1947)의 『관념의 모험(Adventures of Ideas)』에서 언급하듯이 감각 여건의 원초 지위는 제한 조건으로 계승될 법하다. 즉 감각은 원초성의 근원을 제한함으로써 직접 조건화를 구축한다. 이를테면 감각 여건의 제한은 변환(transmutation)이 전제 조건이다. 여기에서 변환은 객체화된 지각(perception)을 맞이한다. 그런즉 지각은 파악의 주체 형식을 끊임없이 정감으로 규정짓기에 이른다.
 
-이번 〈위버멘쉬의 여정〉은 인간 존재의 내면에 잠재한 불안감과 멍울을 초월하려는 욕망의 표방이다. 중첩으로 긁히고 균열이 일어난 질료에서는 삶의 시간성과 심리 작용에 기인한 흔적을 함축한다. 빛과 어둠의 대조 장면은 인간의 심연에 머무는 불안감이 혼돈 상태를 유발한 양상이며, 그 어둠 속에서 생명의 존귀함을 얻으려는 작가의 관심이 담긴다.`,
-    en: `The desire for return that human life aspires to generally embodies a will to recreate even the loss of self. This loss of self is reconstructed in an irregular manner through self-reflection or illumination, approaching an idealized realization that has not yet been overcome.
+이를 두고 옥미화는 심연의 울림으로 받아들인다. 이에 못지않게 표현 방식에서도 거친 마티에르(matière)로 인간 본연의 심상 작용을 대변한다. 그리고 강렬한 원색은 생명에 에너지를 펼치려는 심사이기도 하다. 더욱이 거친 마티에르의 도출에는 다소 심연이 개입되는데, 이는 이미 자신의 내면세계를 판단하거나 의식하는 탓이다.
 
-Today, the determination to escape from emotional vulnerability tends not to be swayed by self-induced sympathy or affection. The emotion a human feels is possible when it reaches the limits of the mind. Introducing the Übermensch as a part of overcoming this is sufficient. Ok Mi-hwa understands this problem of overcoming through creation.
+이번 〈위버멘쉬의 여정〉은 인간 존재의 내면에 잠재한 불안감과 멍울을 초월하려는 욕망의 표방이다. 그가 구사하는 필획의 작동은 인간 원형의 심리를 적나라하게 펼치려는 시도이다. 곧 표면의 대변이라고 할 만큼 잠재의식에 근거한 인간 원형의 흔적을 여신하게 투영한다.
 
-Ok Mi-hwa accepts this as the resonance of the abyss. Her expressive style represents human nature through rough matière, and intense primary colors signify a psychological operation overflowing with energy into life.
+이로써 인간 내면의 불안과 긴장을 고스란히 담는 정황이 내비친다. 이는 생성과 소멸의 흐름을 무언의 환유로 암시하는 셈이다. 이러한 환유는 무의식 층위에서 발생하는 감각 여건과 원기(energy)의 흔적을 물질화한다. 그가 추구하는 원기 발생의 근저에는 감각 확장이 언제나 자리하고 있다. 더욱이 그 원천에서 무의식으로 파생되는 데에는 그의 과거 시간이 오롯이 점철된 탓이다. 으레 감각이 원기에 집중할 때는 그럴만한 사정이 반드시 자리하기 마련이다. 그런 만큼 이를 창작 수단으로써 보다 더 진중한 성격으로 접근하려고 한다.
 
-This exhibition, The Journey of the Übermensch, is an expression of the desire to transcend the anxiety and melancholy latent within the depths of human existence. The materials—scraped and cracked in multiple layers—imply traces originating from the temporality of life. The contrast of light and darkness manifests the chaos induced by anxiety residing in the abyss, and within that darkness lies the artist's pursuit of the dignity of life.`,
+더불어 중첩으로 긁히고 균열이 일어난 질료에서는 삶의 시간성과 심리 작용에 기인한 흔적을 함축한다. 따라서 그가 겪은 행로에 잠재된 본연의 시간 흐름을 또 다른 매체로 흔적화하기를 마다하지 않는다. 곧 흔적이 존재로 부활하는 정황에는 작가의 과거 지향의 심사(心思)가 깔리기 마련이다. 이유인즉 그 과거의 시간이 아직 미처 단절되지 않은 탓이다. 그래서 반복 행위와 우연성으로서 심연을 부단히 드러내려 한다.
+
+그가 반복성에서 탐닉하려는 우연성은 신체 작동 행위로 드러난다. 이에 부응하여 반복이 우연성과 결부될 때는 반드시 그에 따른 사유가 내재한다. 말하자면 반복되는 데에는 우연일 수도 있겠지만 이미 반복될만한 잠재된 사정이 무의식의 감각으로 발출된 까닭이다. 이러한 감각 여건으로서 리듬 행위는 무계획으로서 반응하는 신체 작동과도 무관하지 않다.
+
+결국 신체 작동에서 일어나는 교차성은 무의식 작용과 자연스럽게 융화로 생성된다. 이에 빛과 어둠의 대조 장면 역시 인간의 심연에 머무는 불안감이 혼돈 상태를 유발한 양상이다. 이로써 어둠이 지향되는 한에서는 생명의 존귀함을 얻으려는 작가의 관심이 담긴 셈이다.`,
+    en: `The desire for return that human life aspires to generally embodies a will to recreate even loss of self. This loss of self is rather reconstructed in an irregular manner through self-reflection or illumination. Thus, it approaches an idealized realization that has not been overcome.
+
+Today, the determination to escape from emotional vulnerability tends not to be swayed by self-induced sympathy or affection. In this way, the emotion human feels is also possible when it reaches the limits of the human mind. Introducing the Übermensch as a part of overcoming this is sufficient. Ok Mi-hwa understands this problem of overcoming, which is akin to the mind, through creation.
+
+In overcoming the human mind, it is customary to firmly establish the position of "status of sensa" (sense-data). As Alfred North Whitehead (1861–1947) mentions in his book Adventures of Ideas, the primitive status of sense-data is inherited as a limiting condition. In other words, sensation constructs a direct conditioning by limiting the source of primitiveness. For instance, the limitation of sense-data is a prerequisite for transmutation. Here, transmutation refers to an objectified sensation. Therefore, the subjective form of prehension constantly meets perception with emotion.
+
+Regarding this, Ok Mi-hwa accepts it as the resonance of the abyss. No less important than this, her expressive style also represents human nature through rough matière. And intense primary colors also signify a psychological operation overflowing with energy into life. Moreover, the emergence of rougher matière involves the abyss to some extent, which is due to already judging or cognizing one's own inner world.
+
+This exhibition, The Journey of the Übermensch, is an expression of the desire to transcend the anxiety and melancholy latent within the depths of human existence. It is an attempt to realistically unfold the psychology of human archetypes through the brushwork she employs. In other words, it transparently projects the traces of the human archetype based on the subconscious, enough to be called the representation of the surface.
+
+Through this, the context containing the anxiety and tension of the human interior is fully revealed. This implies the flow of creation and destruction through a silent return. This return objectifies the traces of sense-data and energy generated at the level of the subconscious. The expansion of sensation always resides at the root of the energy she pursues. Moreover, the reason why consciousness is derived from the subconscious at that source is because her past time is deeply imbued with it. When sensation focuses on energy, there is bound to be a reason for it to be revealed. Therefore, she attempts to approach it with a more genuine character as a creative means.
+
+Furthermore, the materials where scraping and cracking occur in multiple layers imply traces originating from the temporality of life and psychological operations. Therefore, she does not hesitate to track the inherent flow of time latent in her behavior with another medium. In other words, in the situation where traces reappear as entities, the past direction of the artist is bound to be laid out. The reason is that the past time has not yet been completely severed. That is why she endlessly tries to reveal the abyss through repetitive actions and serendipity.
+
+The serendipity she seeks to explore in repetition manifests as bodily action. In response to this, when repetition is combined with serendipity, there is a reason underlying it. In other words, while there may be serendipity in repetition, it has been refined through the sense of the subconscious, based on latent circumstances that are bound to be repeated. These actions of rhythm as sense-data are not unrelated to bodily actions that respond without planning.
+
+Ultimately, the crossover that occurs in bodily action is generated by naturally harmonizing with subconscious operations. The scene contrasting light and darkness is also a manifestation that induces a state of chaos out of the anxiety residing in the abyss between humans. Through this, it means that she seeks to obtain the dignity of life within the limits where darkness is oriented.`,
   },
+
+  // 축사 (도록 원문 그대로)
+  foreword: [
+    {
+      title: '옥미화 작가 개인전을 축하하며',
+      body: `본 고향인 거제(도)에서부터 지금 정착한 마산, 그리고 부산을 오가며 옥미화 작가는 참으로 바쁘고 치열한 삶의 여정을 보냈습니다. 세 곳 모두 넓은 바다가 보이고, 파란 하늘 아래 짙은 쪽빛 푸른 바탕 위로 고운 파도가 밀려오는 터입니다. 작가는 그 아름다운 자연 속에서 젊음을 보냈기에, 타인을 배려하는 바른 심성과 조화롭고 균형 잡힌 예술적 작화作畵적 토대를 다질 수 있었을 것입니다.
+
+옥 작가는 세 곳의 화단에서 꾸준히 작품을 발표하며 역량을 인정받아 왔습니다. 수상작인 '설산(雪山)'(30F 유채, 2021)을 보면 마치 스위스의 빙산을 마주한 듯한 감동과 뛰어난 묘사력에 놀라게 됩니다. 깊고 푸른 하늘을 같은 톤으로 착색하여 눈 덮인 하얀 산영山影과 함께 설산 풍경을 돋보이게 한 표현, 그리고 '정물'(15F 유채, 2021)에서 보여준 색감 구성과 감각적 표현력은 그녀가 구상화 지향의 작가로서도 손색없는 탄탄한 기본기를 갖추었음을 증명합니다. 그랬던 옥 작가가 이번 인사아트센터 경남갤러리 개인전에서는 완전히 새로운 가령 '추상표현주의' 작품들을 선보인다고 하니, 작가의 폭넓은 작품세계에 깊은 경탄을 표하게 됩니다.
+
+훨신 그 이전 첫 개인전인 충주 성마루미술관전, 3도의 경계선인 영동 황간역갤러리전, 또 구미 닥터지마고갤러리전 등 연 이은 전시를 통해 이미 많은 이들을 놀라게 한 바 있는 옥 작가는, 홍익대학교 미술대학원에서 얻은 예술적 영혼•영감을 바탕으로 이번 전시에서 한층 더 뜨겁고 열정적인 '용트림의 철학성'을 유감없이 선보입니다. 특히 이번 전시에 출품된 100호 이상의 대작들과 300호 대작 '생의 심연에서 건져 올린 빛'은 옥 작가가 지나온 삶의 과정과 절치탁마切磋琢磨의 시간이 마침내 완성된 예술로 피어난 결정체가 아닌가 생각합니다.
+
+무의식의 흐름을 따르는 오토메틱이즘을 통해 생의 심연을 뚫고 나온 이 빛은, 어쩌면 인류의 앞날을 선보이는 동양 정신을 음미하듯 깊은 울림을 줍니다. 멀리 보이는 스펙터클한 절벽 풍정風情처럼 시선을 압도하는 대표작들은 가히 이번 전시의 백미라 할 수 있습니다.
+
+일찍이 서예를 익히고 한국화韓國畵를 연마하며 다수의 전시회에서 수상한 바 있는 옥 작가는, 부산대에서 경영학 석사를 취득하고 사업가로서도 성공을 거둔 다능한 인재입니다. 그녀 특유의 순발력과 뛰어난 성취력이 어우러져, 기존의 '서연예술원'과 마산 바닷가 주도산 산기슭에 구상 중인 넓은 '옥화 수목정원'이 향후 아름다운 미술관과 인성 치유의 힐링 터로 현실화 되기를 진심으로 기원합니다.
+
+남쪽 경상남도 창원 마산 화단의 빛나는 꽃별이 되시기를 바라며, 여러분과 함께 이번 개인전을 계기로 옥미화 작가님의 앞날을 축하 드립니다.`,
+      date: '2026. 5.',
+      author: '신범승',
+      credential: '미술교육학 박사, 한국미술협회 상임고문, 한민족미술협회 회장',
+    },
+    {
+      title: '축사',
+      body: `모든 창작의 기본은 자기 자신의 이야기라고 생각합니다. 예술가가 미적 체험을 통해 예술 작품을 구상하고 생산하는 활동이기에 예술 제작이나 예술 창조와 같은 뜻입니다.
+
+창작은 독창성과 개성을 중요시하므로 유사물품의 대량생산이나 그 제조 과정과는 구별되고, 또한 원작이 있는 모작(模作)이나 모사(模寫), 번안이나 개작 등과 대비되는 개념으로 미적 대상으로부터 상상력에 의해 창조된 내적 이미지를 객관적인 형식으로 정착시켜 하나의 예술 작품을 만들어내는 것이라 할 수 있습니다.
+
+작가 옥미화는 사업을 하다가 뒤늦게 그림을 그리게 되었습니다. 그런 탓인지 일반적으로 공간 구성이라던가 색상 선택에 있어 누구보다도 자유롭고 정통적인 미학의 기준을 감히 파괴하면서 새로운 장르를 개척해 나아가는 특성이 가장 큰 장점이라 할 수 있겠고, 또한 사업과 같이 병행하면서 열심히 하는 모습이 주위의 주목을 받는 모습입니다.
+
+아직은 미흡하지만 묵묵히 자신만의 작업 세계를 구축해온 열정에 깊은 박수를 보냅니다. 이번 전시가 많은 분들에게 사유의 시간이 되시기를 바라며, 앞날에 더욱 빛나는 예술의 결실이 있기를 믿어 의심치 않습니다.`,
+      date: '2026년 5월',
+      author: '임형준',
+      credential: '한국미술협회 마산지부 회장 / 미술학 박사',
+    },
+  ],
 
   // 작가 노트
   noteEpigraph: {
