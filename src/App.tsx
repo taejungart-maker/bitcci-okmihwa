@@ -34,9 +34,45 @@ function AppContent() {
   const isDragging = useRef(false);
   const isScrolling = useRef(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const bgmRef = useRef<HTMLAudioElement | null>(null);
+  const [bgmPlaying, setBgmPlaying] = useState(false);
+  const [bgmAvailable, setBgmAvailable] = useState(false);
 
   const RENDER_RANGE = 2;
   const isVisible = (index: number) => Math.abs(currentPage - index) <= RENDER_RANGE;
+
+  // BGM 초기화 + 첫 인터랙션 시 재생 시도
+  useEffect(() => {
+    const bgm = new Audio(`${import.meta.env.BASE_URL}bgm.mp3`);
+    bgm.loop = true;
+    bgm.volume = 0.28;
+    bgm.preload = 'auto';
+    bgm.addEventListener('canplay', () => setBgmAvailable(true), { once: true });
+    bgm.addEventListener('error', () => setBgmAvailable(false), { once: true });
+    bgmRef.current = bgm;
+
+    const onFirstInteraction = () => {
+      bgmRef.current?.play().then(() => setBgmPlaying(true)).catch(() => {});
+      document.removeEventListener('touchstart', onFirstInteraction);
+      document.removeEventListener('click', onFirstInteraction);
+    };
+    document.addEventListener('touchstart', onFirstInteraction);
+    document.addEventListener('click', onFirstInteraction);
+
+    return () => {
+      bgmRef.current?.pause();
+      bgmRef.current = null;
+      document.removeEventListener('touchstart', onFirstInteraction);
+      document.removeEventListener('click', onFirstInteraction);
+    };
+  }, []);
+
+  const toggleBgm = (e: React.MouseEvent | React.TouchEvent) => {
+    e.stopPropagation();
+    if (!bgmRef.current) return;
+    if (bgmPlaying) { bgmRef.current.pause(); setBgmPlaying(false); }
+    else bgmRef.current.play().then(() => setBgmPlaying(true)).catch(() => {});
+  };
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -119,6 +155,30 @@ function AppContent() {
       onTouchStart={flashControls}
     >
       <LangToggle />
+
+      {/* BGM 토글 — 우상단 골드 */}
+      {bgmAvailable && (
+        <button
+          onClick={toggleBgm}
+          onTouchEnd={(e) => { e.preventDefault(); toggleBgm(e); }}
+          aria-label="배경음악 토글"
+          className="fixed top-5 right-5 z-50 w-9 h-9 rounded-full flex items-center justify-center transition-all duration-300 border border-[#C9A227]/40 bg-[#0B0E17]/40 backdrop-blur-sm text-[#C9A227] hover:bg-[#C9A227]/15"
+        >
+          {bgmPlaying ? (
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+            </svg>
+          ) : (
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+              <line x1="23" y1="9" x2="17" y2="15" />
+              <line x1="17" y1="9" x2="23" y2="15" />
+            </svg>
+          )}
+        </button>
+      )}
 
       <div
         className="w-full h-full flex will-change-transform transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)]"
