@@ -38,6 +38,42 @@ function AppContent() {
   const [bgmPlaying, setBgmPlaying] = useState(false);
   const [bgmAvailable, setBgmAvailable] = useState(false);
 
+  // 책장 넘기는 효과음 (page-flip.wav — 갤러리 앱 공용 음원)
+  const audioCtxRef = useRef<AudioContext | null>(null);
+  const flipBufRef = useRef<AudioBuffer | null>(null);
+  const didMountRef = useRef(false);
+
+  // 음원을 1회 디코딩해서 버퍼로 보관
+  useEffect(() => {
+    let aborted = false;
+    fetch(`${import.meta.env.BASE_URL}page-flip.wav`)
+      .then((r) => r.arrayBuffer())
+      .then((ab) => {
+        const Ctor = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+        const ctx = audioCtxRef.current ?? new Ctor();
+        audioCtxRef.current = ctx;
+        return ctx.decodeAudioData(ab);
+      })
+      .then((buf) => { if (!aborted) flipBufRef.current = buf; })
+      .catch(() => { /* 음원 로드 실패 시 무음 */ });
+    return () => { aborted = true; };
+  }, []);
+
+  const playPageFlip = () => {
+    try {
+      const ctx = audioCtxRef.current;
+      const buf = flipBufRef.current;
+      if (!ctx || !buf) return;
+      if (ctx.state === 'suspended') ctx.resume();
+      const src = ctx.createBufferSource();
+      src.buffer = buf;
+      const g = ctx.createGain();
+      g.gain.value = 0.6;
+      src.connect(g); g.connect(ctx.destination);
+      src.start();
+    } catch { /* 오디오 미지원 환경 무시 */ }
+  };
+
   const RENDER_RANGE = 2;
   const isVisible = (index: number) => Math.abs(currentPage - index) <= RENDER_RANGE;
 
@@ -146,6 +182,15 @@ function AppContent() {
     hideTimer.current = setTimeout(() => setShowControls(false), 600);
   };
   useEffect(() => { flashControls(); }, [currentPage]);
+
+  // 페이지가 바뀔 때마다 책장 넘기는 소리 (첫 렌더는 제외)
+  useEffect(() => {
+    if (!didMountRef.current) { didMountRef.current = true; return; }
+    playPageFlip();
+  }, [currentPage]);
+
+  // 언마운트 시 오디오 컨텍스트 정리
+  useEffect(() => () => { audioCtxRef.current?.close().catch(() => {}); }, []);
 
   return (
     <div
