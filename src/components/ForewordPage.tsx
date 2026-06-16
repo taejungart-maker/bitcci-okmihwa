@@ -26,7 +26,13 @@ export default function ForewordPage() {
         </motion.header>
 
         <div className="flex flex-col gap-16">
-          {exhibition.foreword.map((msg, mi) => (
+          {exhibition.foreword.map((msg, mi) => {
+            const title = lang === 'en' ? msg.titleEn : lang === 'fr' ? msg.titleFr : msg.title;
+            const body = lang === 'en' ? msg.bodyEn : lang === 'fr' ? msg.bodyFr : msg.body;
+            const date = lang === 'en' ? msg.dateEn : lang === 'fr' ? msg.dateFr : msg.date;
+            const author = lang === 'en' ? msg.authorEn : lang === 'fr' ? msg.authorFr : msg.author;
+            const credential = lang === 'en' ? msg.credentialEn : lang === 'fr' ? msg.credentialFr : msg.credential;
+            return (
             <motion.section
               key={mi}
               initial={{ opacity: 0, y: 16 }}
@@ -37,10 +43,10 @@ export default function ForewordPage() {
                 className="text-[17px] md:text-[19px] text-[#F5F1E8] text-center mb-8 break-keep leading-snug"
                 style={{ fontFamily: "'Noto Serif KR', serif", fontWeight: 500 }}
               >
-                {msg.title}
+                {title}
               </h2>
               <div className="flex flex-col gap-4">
-                {msg.body.split('\n\n').map((para, pi) => (
+                {body.split('\n\n').map((para, pi) => (
                   <p
                     key={pi}
                     className="text-[14.5px] md:text-[15px] text-[#cfcfd6] leading-[2.0] tracking-wide break-keep text-left"
@@ -51,25 +57,15 @@ export default function ForewordPage() {
                 ))}
               </div>
               <div className="mt-7 text-right">
-                <p className="text-[12px] text-[#9a9aa3] tracking-wide" style={{ fontFamily: "'Noto Serif KR', serif" }}>{msg.date}</p>
-                <p className="text-[15px] text-[#C9A227] tracking-[0.15em] mt-2" style={{ fontFamily: "'Noto Serif KR', serif", fontWeight: 500 }}>{msg.author}</p>
-                <p className="text-[11.5px] text-[#8a8a93] mt-1.5 break-keep" style={{ fontFamily: "'Noto Serif KR', serif" }}>{msg.credential}</p>
+                <p className="text-[12px] text-[#9a9aa3] tracking-wide" style={{ fontFamily: "'Noto Serif KR', serif" }}>{date}</p>
+                <p className="text-[15px] text-[#C9A227] tracking-[0.15em] mt-2" style={{ fontFamily: "'Noto Serif KR', serif", fontWeight: 500 }}>{author}</p>
+                <p className="text-[11.5px] text-[#8a8a93] mt-1.5 break-keep" style={{ fontFamily: "'Noto Serif KR', serif" }}>{credential}</p>
               </div>
               {mi < exhibition.foreword.length - 1 && <div className="w-8 h-[1px] bg-[#C9A227]/30 mx-auto mt-14" />}
             </motion.section>
-          ))}
+            );
+          })}
         </div>
-
-        {lang === 'en' && (
-          <p className="text-center text-[11px] text-[#6a6a72] mt-12 italic" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
-            * Foreword messages are presented in the original Korean.
-          </p>
-        )}
-        {lang === 'fr' && (
-          <p className="text-center text-[11px] text-[#6a6a72] mt-12 italic" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
-            * Les textes de préface sont présentés dans leur version originale en coréen.
-          </p>
-        )}
       </div>
     </div>
   );

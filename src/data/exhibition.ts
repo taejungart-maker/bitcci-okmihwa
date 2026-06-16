@@ -97,6 +97,8 @@ Finalement, le croisement qui surgit dans l'action du corps se génère par une 
   foreword: [
     {
       title: '옥미화 작가 개인전을 축하하며',
+      titleEn: 'Celebrating the Solo Exhibition of Artist Ok Mi-hwa',
+      titleFr: "En célébration de l'exposition personnelle de l'artiste Ok Mi-hwa",
       body: `본 고향인 거제(도)에서부터 지금 정착한 마산, 그리고 부산을 오가며 옥미화 작가는 참으로 바쁘고 치열한 삶의 여정을 보냈습니다. 세 곳 모두 넓은 바다가 보이고, 파란 하늘 아래 짙은 쪽빛 푸른 바탕 위로 고운 파도가 밀려오는 터입니다. 작가는 그 아름다운 자연 속에서 젊음을 보냈기에, 타인을 배려하는 바른 심성과 조화롭고 균형 잡힌 예술적 작화作畵적 토대를 다질 수 있었을 것입니다.
 
 옥 작가는 세 곳의 화단에서 꾸준히 작품을 발표하며 역량을 인정받아 왔습니다. 수상작인 '설산(雪山)'(30F 유채, 2021)을 보면 마치 스위스의 빙산을 마주한 듯한 감동과 뛰어난 묘사력에 놀라게 됩니다. 깊고 푸른 하늘을 같은 톤으로 착색하여 눈 덮인 하얀 산영山影과 함께 설산 풍경을 돋보이게 한 표현, 그리고 '정물'(15F 유채, 2021)에서 보여준 색감 구성과 감각적 표현력은 그녀가 구상화 지향의 작가로서도 손색없는 탄탄한 기본기를 갖추었음을 증명합니다. 그랬던 옥 작가가 이번 인사아트센터 경남갤러리 개인전에서는 완전히 새로운 가령 '추상표현주의' 작품들을 선보인다고 하니, 작가의 폭넓은 작품세계에 깊은 경탄을 표하게 됩니다.
@@ -108,12 +110,42 @@ Finalement, le croisement qui surgit dans l'action du corps se génère par une 
 일찍이 서예를 익히고 한국화韓國畵를 연마하며 다수의 전시회에서 수상한 바 있는 옥 작가는, 부산대에서 경영학 석사를 취득하고 사업가로서도 성공을 거둔 다능한 인재입니다. 그녀 특유의 순발력과 뛰어난 성취력이 어우러져, 기존의 '서연예술원'과 마산 바닷가 주도산 산기슭에 구상 중인 넓은 '옥화 수목정원'이 향후 아름다운 미술관과 인성 치유의 힐링 터로 현실화 되기를 진심으로 기원합니다.
 
 남쪽 경상남도 창원 마산 화단의 빛나는 꽃별이 되시기를 바라며, 여러분과 함께 이번 개인전을 계기로 옥미화 작가님의 앞날을 축하 드립니다.`,
+      bodyEn: `From her native Geoje Island to Masan, where she now resides, and back and forth to Busan, the artist Ok Mi-hwa has lived a truly busy and intense journey. All three places look out upon a vast sea, where gentle waves roll in over a deep indigo expanse beneath a clear blue sky. Having spent her youth amid such beautiful nature, the artist was able to cultivate an upright character considerate of others, along with a harmonious and well-balanced foundation for her painting.
+
+Ok has steadily presented her work in the art circles of these three cities, earning recognition for her abilities. Her award-winning "Snow Mountain (雪山)" (30F, oil, 2021) astonishes the viewer with its moving power and outstanding descriptive skill, as though one were standing before a Swiss glacier. The way she tints the deep blue sky in a single tone to set off the snow-covered white mountain silhouette, and the color composition and sensuous expressiveness shown in "Still Life" (15F, oil, 2021), prove that she possesses solid fundamentals beyond reproach even as a representational painter. That this same artist now unveils entirely new works — of, one might say, "Abstract Expressionism" — at this solo exhibition in the Gyeongnam Gallery of the Insa Art Center fills us with deep admiration for the breadth of her artistic world.
+
+Long before this, Ok had already amazed many through a succession of exhibitions — her first solo show at the Seongmaru Art Museum in Chungju, a show at the Hwanggan Station Gallery in Yeongdong on the border of three provinces, and another at the Dr. Jimago Gallery in Gumi. Drawing on the artistic soul and inspiration gained at the Graduate School of Fine Arts at Hongik University, she now reveals, without reserve, an even more ardent and impassioned "philosophy of the dragon's ascent" in this exhibition. In particular, the large works of over 100 ho and the 300-ho masterpiece "The Light Drawn Up from the Abyss of Life" strike me as a crystallization in which the course of the artist's life and her years of relentless self-discipline (切磋琢磨) have at last blossomed into completed art.
+
+This light, breaking through the abyss of life by way of an automatism that follows the flow of the unconscious, resonates deeply — as if one were savoring an Eastern spirit that intimates the future of humanity. These signature works, overwhelming the eye like the spectacular air of a distant cliff, may truly be called the highlight of this exhibition.
+
+Having studied calligraphy early on and honed her Korean painting (韓國畵), winning awards at numerous exhibitions, Ok is a versatile talent who earned a master's degree in business administration from Pusan National University and succeeded as an entrepreneur as well. With her characteristic quick wit and remarkable drive, I sincerely hope that her existing "Seoyeon Art Institute" and the spacious "Okhwa Arboretum Garden" she is now planning at the foot of Mount Judo by the Masan shore will one day be realized as a beautiful art museum and a healing ground for the nurturing of character.
+
+Wishing her to become a shining flower-star of the art world of Masan, Changwon, in the southern province of Gyeongsangnam-do, I join you all in celebrating, on the occasion of this solo exhibition, the future of the artist Ok Mi-hwa.`,
+      bodyFr: `De son île natale de Geoje à Masan, où elle réside aujourd'hui, en passant sans cesse par Busan, l'artiste Ok Mi-hwa a mené un parcours véritablement intense et trépidant. Ces trois lieux donnent tous sur une vaste mer, où de douces vagues viennent rouler sur une étendue d'un bleu indigo profond, sous un ciel limpide. Ayant passé sa jeunesse au cœur d'une si belle nature, l'artiste a pu forger un caractère droit et attentif aux autres, ainsi qu'un fondement pictural harmonieux et équilibré.
+
+Ok a présenté ses œuvres avec constance dans les milieux artistiques de ces trois villes, où son talent a été reconnu. Son œuvre primée « Montagne enneigée (雪山) » (30F, huile, 2021) émerveille par sa force émouvante et sa remarquable maîtrise descriptive, comme si l'on se trouvait devant un glacier suisse. Sa façon de teinter le ciel d'un bleu profond dans un ton unique pour faire ressortir la silhouette blanche de la montagne enneigée, ainsi que la composition chromatique et l'expressivité sensible révélées dans « Nature morte » (15F, huile, 2021), prouvent qu'elle possède des bases solides et irréprochables, même en tant que peintre figurative. Que cette même artiste dévoile aujourd'hui des œuvres entièrement nouvelles — relevant pour ainsi dire de l'« expressionnisme abstrait » — lors de cette exposition personnelle à la Gyeongnam Gallery du Insa Art Center suscite une profonde admiration pour l'ampleur de son univers artistique.
+
+Bien avant cela, Ok avait déjà émerveillé de nombreux spectateurs au fil d'expositions successives — sa première exposition personnelle au musée d'art Seongmaru de Chungju, celle de la galerie de la gare de Hwanggan à Yeongdong, au point de rencontre de trois provinces, ou encore celle de la galerie Dr. Jimago à Gumi. Forte de l'âme et de l'inspiration artistiques acquises à l'École supérieure des beaux-arts de l'université Hongik, elle déploie ici sans réserve une « philosophie de l'élan du dragon » plus ardente et passionnée encore. En particulier, les grandes œuvres de plus de 100 ho et le chef-d'œuvre de 300 ho « La Lumière remontée de l'abîme de la vie » m'apparaissent comme la cristallisation où le parcours de vie de l'artiste et ses années de patient labeur (切磋琢磨) se sont enfin épanouis en un art accompli.
+
+Cette lumière, jaillie de l'abîme de la vie par un automatisme qui suit le flux de l'inconscient, résonne profondément — comme si l'on savourait un esprit oriental laissant entrevoir l'avenir de l'humanité. Ces œuvres maîtresses, qui subjuguent le regard telle l'atmosphère spectaculaire d'une falaise lointaine, peuvent à juste titre être considérées comme le clou de cette exposition.
+
+Ayant étudié très tôt la calligraphie et perfectionné la peinture coréenne (韓國畵), couronnée dans de nombreuses expositions, Ok est un talent polyvalent : titulaire d'un master en gestion de l'université nationale de Pusan, elle a également réussi comme entrepreneure. Avec sa vivacité d'esprit et sa remarquable capacité d'accomplissement, je souhaite sincèrement que son « Institut d'art Seoyeon » actuel et le vaste « Jardin arboré Okhwa » qu'elle projette au pied du mont Judo, au bord de la mer de Masan, se concrétisent un jour en un beau musée et un lieu de ressourcement pour l'épanouissement de l'être.
+
+Lui souhaitant de devenir une étoile éclatante du milieu artistique de Masan, à Changwon, dans le sud de la province du Gyeongsangnam-do, je me joins à vous tous pour célébrer, à l'occasion de cette exposition personnelle, l'avenir de l'artiste Ok Mi-hwa.`,
       date: '2026. 5.',
+      dateEn: 'May 2026',
+      dateFr: 'Mai 2026',
       author: '신범승',
+      authorEn: 'Shin Beom-seung',
+      authorFr: 'Shin Beom-seung',
       credential: '미술교육학 박사, 한국미술협회 상임고문, 한민족미술협회 회장',
+      credentialEn: 'Ph.D. in Art Education · Standing Advisor, Korean Fine Arts Association · President, Korean People’s Fine Arts Association',
+      credentialFr: 'Docteur en pédagogie de l’art · Conseiller permanent de l’Association coréenne des beaux-arts · Président de l’Association des beaux-arts du peuple coréen',
     },
     {
       title: '축사',
+      titleEn: 'Congratulatory Message',
+      titleFr: 'Message de félicitations',
       body: `모든 창작의 기본은 자기 자신의 이야기라고 생각합니다. 예술가가 미적 체험을 통해 예술 작품을 구상하고 생산하는 활동이기에 예술 제작이나 예술 창조와 같은 뜻입니다.
 
 창작은 독창성과 개성을 중요시하므로 유사물품의 대량생산이나 그 제조 과정과는 구별되고, 또한 원작이 있는 모작(模作)이나 모사(模寫), 번안이나 개작 등과 대비되는 개념으로 미적 대상으로부터 상상력에 의해 창조된 내적 이미지를 객관적인 형식으로 정착시켜 하나의 예술 작품을 만들어내는 것이라 할 수 있습니다.
@@ -121,9 +153,29 @@ Finalement, le croisement qui surgit dans l'action du corps se génère par une 
 작가 옥미화는 사업을 하다가 뒤늦게 그림을 그리게 되었습니다. 그런 탓인지 일반적으로 공간 구성이라던가 색상 선택에 있어 누구보다도 자유롭고 정통적인 미학의 기준을 감히 파괴하면서 새로운 장르를 개척해 나아가는 특성이 가장 큰 장점이라 할 수 있겠고, 또한 사업과 같이 병행하면서 열심히 하는 모습이 주위의 주목을 받는 모습입니다.
 
 아직은 미흡하지만 묵묵히 자신만의 작업 세계를 구축해온 열정에 깊은 박수를 보냅니다. 이번 전시가 많은 분들에게 사유의 시간이 되시기를 바라며, 앞날에 더욱 빛나는 예술의 결실이 있기를 믿어 의심치 않습니다.`,
+      bodyEn: `I believe the foundation of all creation is one's own story. Because it is the act by which an artist conceives and produces a work through aesthetic experience, it means the same as artistic making or artistic creation.
+
+Since creation values originality and individuality, it is distinct from the mass production of similar goods and their manufacturing process; and, as a concept set against imitation (模作), copying (模寫), adaptation, or revision of an existing original, it may be described as the making of a single work of art by fixing, in objective form, an inner image created through imagination out of an aesthetic object.
+
+The artist Ok Mi-hwa came to painting late, after a career in business. Perhaps for that reason, her greatest strength lies in being freer than anyone in spatial composition and color choice — daring to break the canons of orthodox aesthetics to pioneer a new genre — and the diligence with which she pursues this alongside her business has drawn the attention of those around her.
+
+Though there is still room to grow, I offer my deep applause for the passion with which she has quietly built her own world of work. I hope this exhibition will be a time of reflection for many, and I have no doubt that even more brilliant artistic fruits await her in the days ahead.`,
+      bodyFr: `Je crois que le fondement de toute création est sa propre histoire. Parce qu'il s'agit de l'acte par lequel l'artiste conçoit et produit une œuvre à travers l'expérience esthétique, cela revient à la fabrication ou à la création artistique.
+
+Parce que la création accorde de l'importance à l'originalité et à la singularité, elle se distingue de la production de masse d'objets semblables et de leur processus de fabrication ; et, en tant que notion opposée à l'imitation (模作), à la copie (模寫), à l'adaptation ou au remaniement d'un original existant, on peut la décrire comme la création d'une œuvre unique en fixant, sous une forme objective, une image intérieure née de l'imagination à partir d'un objet esthétique.
+
+L'artiste Ok Mi-hwa est venue tardivement à la peinture, après une carrière dans les affaires. C'est peut-être pour cela que sa plus grande qualité réside dans une liberté incomparable dans la composition de l'espace et le choix des couleurs — osant briser les canons de l'esthétique orthodoxe pour ouvrir un genre nouveau — ; et l'ardeur avec laquelle elle mène cela de front avec son activité professionnelle attire l'attention de son entourage.
+
+Bien qu'il reste encore des progrès à faire, je salue chaleureusement la passion avec laquelle elle a bâti, en silence, son propre univers de création. Je souhaite que cette exposition soit pour beaucoup un temps de réflexion, et je ne doute pas que des fruits artistiques plus éclatants encore l'attendent à l'avenir.`,
       date: '2026년 5월',
+      dateEn: 'May 2026',
+      dateFr: 'Mai 2026',
       author: '임형준',
+      authorEn: 'Lim Hyung-jun',
+      authorFr: 'Lim Hyung-jun',
       credential: '한국미술협회 마산지부 회장 / 미술학 박사',
+      credentialEn: 'President, Masan Branch of the Korean Fine Arts Association / Ph.D. in Fine Arts',
+      credentialFr: 'Président de la section de Masan de l’Association coréenne des beaux-arts / Docteur en arts plastiques',
     },
   ],
 
