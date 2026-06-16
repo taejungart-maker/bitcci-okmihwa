@@ -38,40 +38,16 @@ function AppContent() {
   const [bgmPlaying, setBgmPlaying] = useState(false);
   const [bgmAvailable, setBgmAvailable] = useState(false);
 
-  // 책장 넘기는 효과음 (page-flip.wav — 갤러리 앱 공용 음원)
-  const audioCtxRef = useRef<AudioContext | null>(null);
-  const flipBufRef = useRef<AudioBuffer | null>(null);
+  // 책장 넘기는 효과음 (조지광 갤러리와 동일한 음원 — page-flip.mov)
+  const sfxRef = useRef<HTMLVideoElement | null>(null);
   const didMountRef = useRef(false);
 
-  // 음원을 1회 디코딩해서 버퍼로 보관
-  useEffect(() => {
-    let aborted = false;
-    fetch(`${import.meta.env.BASE_URL}page-flip.wav`)
-      .then((r) => r.arrayBuffer())
-      .then((ab) => {
-        const Ctor = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
-        const ctx = audioCtxRef.current ?? new Ctor();
-        audioCtxRef.current = ctx;
-        return ctx.decodeAudioData(ab);
-      })
-      .then((buf) => { if (!aborted) flipBufRef.current = buf; })
-      .catch(() => { /* 음원 로드 실패 시 무음 */ });
-    return () => { aborted = true; };
-  }, []);
-
   const playPageFlip = () => {
+    if (!sfxRef.current) return;
     try {
-      const ctx = audioCtxRef.current;
-      const buf = flipBufRef.current;
-      if (!ctx || !buf) return;
-      if (ctx.state === 'suspended') ctx.resume();
-      const src = ctx.createBufferSource();
-      src.buffer = buf;
-      const g = ctx.createGain();
-      g.gain.value = 0.6;
-      src.connect(g); g.connect(ctx.destination);
-      src.start();
-    } catch { /* 오디오 미지원 환경 무시 */ }
+      sfxRef.current.currentTime = 0;
+      sfxRef.current.play().catch(() => {});
+    } catch { /* 브라우저 차단 시 무시 */ }
   };
 
   const RENDER_RANGE = 2;
@@ -87,8 +63,23 @@ function AppContent() {
     bgm.addEventListener('error', () => setBgmAvailable(false), { once: true });
     bgmRef.current = bgm;
 
+    // 책장 넘기는 효과음 (.mov 음원 — 숨김 video 요소로 재생)
+    const sfx = document.createElement('video');
+    sfx.src = `${import.meta.env.BASE_URL}page-flip.mov`;
+    sfx.volume = 0.7;
+    sfx.preload = 'auto';
+    sfx.playsInline = true;
+    sfx.style.display = 'none';
+    document.body.appendChild(sfx);
+    sfxRef.current = sfx;
+
     const onFirstInteraction = () => {
       bgmRef.current?.play().then(() => setBgmPlaying(true)).catch(() => {});
+      // 효과음 활성화 (브라우저 자동재생 정책 우회: 재생 후 즉시 정지)
+      sfxRef.current?.play().then(() => {
+        sfxRef.current?.pause();
+        if (sfxRef.current) sfxRef.current.currentTime = 0;
+      }).catch(() => {});
       document.removeEventListener('touchstart', onFirstInteraction);
       document.removeEventListener('click', onFirstInteraction);
     };
@@ -98,6 +89,7 @@ function AppContent() {
     return () => {
       bgmRef.current?.pause();
       bgmRef.current = null;
+      if (sfxRef.current) { sfxRef.current.pause(); sfxRef.current.remove(); sfxRef.current = null; }
       document.removeEventListener('touchstart', onFirstInteraction);
       document.removeEventListener('click', onFirstInteraction);
     };
@@ -188,9 +180,6 @@ function AppContent() {
     if (!didMountRef.current) { didMountRef.current = true; return; }
     playPageFlip();
   }, [currentPage]);
-
-  // 언마운트 시 오디오 컨텍스트 정리
-  useEffect(() => () => { audioCtxRef.current?.close().catch(() => {}); }, []);
 
   return (
     <div
