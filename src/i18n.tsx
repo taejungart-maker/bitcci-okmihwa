@@ -4,14 +4,18 @@ import type { Lang } from './data/exhibition';
 interface LangCtx {
   lang: Lang;
   setLang: (l: Lang) => void;
-  t: (v: { ko: string; en: string }) => string;
+  t: (v: { ko: string; en: string; fr?: string }) => string;
 }
 
 const Ctx = createContext<LangCtx>({ lang: 'ko', setLang: () => {}, t: (v) => v.ko });
 
 export function LangProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>('ko');
-  const t = (v: { ko: string; en: string }) => (lang === 'ko' ? v.ko : v.en);
+  const t = (v: { ko: string; en: string; fr?: string }) => {
+    if (lang === 'ko') return v.ko;
+    if (lang === 'fr') return v.fr ?? v.en;
+    return v.en;
+  };
   return <Ctx.Provider value={{ lang, setLang, t }}>{children}</Ctx.Provider>;
 }
 
@@ -32,6 +36,11 @@ export function LangToggle() {
         onClick={(e) => { e.stopPropagation(); setLang('en'); }}
         className={`px-2.5 py-1 transition-colors ${lang === 'en' ? 'text-[#C9A227]' : 'text-[#8a8a93] hover:text-[#c5c5cc]'}`}
       >ENG</button>
+      <span className="text-[#4a4a52]">/</span>
+      <button
+        onClick={(e) => { e.stopPropagation(); setLang('fr'); }}
+        className={`px-2.5 py-1 transition-colors ${lang === 'fr' ? 'text-[#C9A227]' : 'text-[#8a8a93] hover:text-[#c5c5cc]'}`}
+      >FRA</button>
     </div>
   );
 }

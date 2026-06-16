@@ -65,6 +65,11 @@ export default function ForewordPage() {
             * Foreword messages are presented in the original Korean.
           </p>
         )}
+        {lang === 'fr' && (
+          <p className="text-center text-[11px] text-[#6a6a72] mt-12 italic" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+            * Les textes de préface sont présentés dans leur version originale en coréen.
+          </p>
+        )}
       </div>
     </div>
   );

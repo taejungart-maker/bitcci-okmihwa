@@ -11,8 +11,8 @@ interface Props {
 
 export default function ArtworkPage({ artwork }: Props) {
   const { lang } = useLang();
-  const title = lang === 'ko' ? artwork.titleKo : artwork.titleEn;
-  const message = lang === 'ko' ? artwork.messageKo : artwork.messageEn;
+  const title = lang === 'ko' ? artwork.titleKo : lang === 'fr' ? artwork.titleFr : artwork.titleEn;
+  const message = lang === 'ko' ? artwork.messageKo : lang === 'fr' ? (artwork.messageFr ?? artwork.messageEn) : artwork.messageEn;
   const hasSize = artwork.size && !artwork.size.includes('연작');
 
   return (
