@@ -27,6 +27,12 @@ export default function CritiquePage() {
             {t(exhibition.critiqueTitle)}
           </h1>
           <div className="w-10 h-[1px] bg-[#C9A227]/50 mx-auto" />
+          <p
+            className="text-[12.5px] md:text-[13px] text-[#9a9aa3] mt-5 tracking-wide"
+            style={{ fontFamily: "'Noto Serif KR', serif" }}
+          >
+            {t(exhibition.critiqueAuthor)}
+          </p>
         </motion.header>
 
         <div className="flex flex-col gap-5">
@@ -43,16 +49,6 @@ export default function CritiquePage() {
             </motion.p>
           ))}
         </div>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-right text-[12px] text-[#9a9aa3] mt-10 tracking-wide"
-          style={{ fontFamily: "'Noto Serif KR', serif" }}
-        >
-          {t(exhibition.critiqueAuthor)}
-        </motion.p>
       </div>
     </div>
   );
